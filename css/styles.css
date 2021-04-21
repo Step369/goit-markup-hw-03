@@ -43,6 +43,7 @@ h6,
 p,
 ul {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container {
@@ -152,9 +153,15 @@ ul {
 
 /* Header section */
 
-.page-header {
+.logo-top,
+.logo-header-color {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.menu-item .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .page-header .container {
@@ -244,6 +251,12 @@ ul {
   color: var(--title-text-color);
 }
 
+/* What we do section */
+
+.section-3 {
+  padding-bottom: 94px;
+}
+
 /* Team section */
 
 .team {
@@ -272,8 +285,7 @@ ul {
 }
 
 .team-info {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .team-item {
@@ -298,7 +310,7 @@ ul {
 }
 
 .project-text {
-  padding-left: 24px;
+  padding: 20px 24px;
 }
 
 .project-title {
@@ -326,7 +338,6 @@ ul {
 }
 
 .project-img {
-  margin-bottom: 20px;
 }
 
 /*Footer section*/
